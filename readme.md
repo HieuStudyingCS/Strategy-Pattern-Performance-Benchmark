@@ -1,7 +1,14 @@
 ﻿# Strategy Pattern Performance Evaluation
 
 ## About the Project
-This project evaluates the performance of the **Strategy Design Pattern** in C++. It compares the execution time of using the Strategy pattern (via polymorphism) against traditional conditional logic (`if-else` or `switch`) when switching between different algorithms, such as Bubble Sort and Selection Sort. The goal is to help developers understand the trade-offs between clean, maintainable architecture and raw execution speed.
+This is a small educational project I created to support a presentation/report on Design Patterns, with a strong focus on the **Strategy Pattern**. 
+
+The main goal of this benchmark is to demonstrate the performance overhead caused by dynamic dispatch (**vtable**) when using the Strategy Pattern. By comparing the algorithm execution time using polymorphism versus traditional conditional logic (`if-else` or `switch`). It helps developers clearly see the trade-offs between clean, maintainable object-oriented architecture and raw execution speed.
+
+**Project Details & Tech Stack:**
+- **Language:** C++
+- **Core Concepts:** Strategy Pattern, Polymorphism, Virtual Table (vtable) overhead
+- **Benchmarking Technique:** Measuring and comparing execution times of different approaches (Strategy vs. traditional conditions) over large datasets.
 
 ## Project Structure
 ```text
